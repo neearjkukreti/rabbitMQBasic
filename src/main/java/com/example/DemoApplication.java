@@ -19,7 +19,7 @@ public class DemoApplication implements CommandLineRunner{
 	public void run(String... arg0) throws Exception {
 		
 		for(int i=0; i<10; i++){
-			p.pushToQueue("Sending Message >>" + i);
+			p.pushToQueue("Hello World >>" + i);
 		}
 	}
 }

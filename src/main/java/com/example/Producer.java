@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Producer {
 
-	private final String journalEntryQueue = "JournalEntry";
+	private final String journalEntryQueue = "HelloWorldQueue";
 	
 	@Autowired
 	RabbitTemplate rabbitTemplate;
